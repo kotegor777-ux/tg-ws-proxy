@@ -345,7 +345,7 @@ jobs:
             dist/TgWsProxy_linux_amd64.deb
           draft: false
           prerelease: false
-           build-android:
+          build-android:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
